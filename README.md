@@ -40,10 +40,13 @@ __Update Composer__
 ### With Composer
 
 ```php
+	//$bcoder = new Bhutanio\BEncode;
 	
-	require 'vendor/autoload.php';
+	
+	
+	require 'BEncode.php';
 
-	$bcoder = new Bhutanio\BEncode;
+	$bcoder = new BEncode;
 	$bcoder->set([
 		'announce'=>'http://www.private-tracker.com',
 		'comment'=>'Downloaded from Private Tracker',
