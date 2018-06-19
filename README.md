@@ -51,7 +51,7 @@ __Update Composer__
 	]);
 
 	// decode Torrent file
-	$torrent = $bcoder->bdecode( File::get('AwesomeMovie.torrent'));
+	$torrent = $bcoder->bdecode(file_get_contents('AwesomeMovie.torrent'));
 	print_r($torrent);
 
 	// show Torrent contents
